@@ -14,7 +14,7 @@ const TodoForm = () => {
   }
 
   return (
-    <div>
+    <div className="flex justify-between hr align-center my-20">
       <input
         type="text"
         value={text}

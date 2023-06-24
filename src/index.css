@@ -70,9 +70,31 @@ input[type="text"] {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
+  width: 75%;
 }
 
 input[type="text"]:focus {
   outline: none;
   border-color: #555;
+}
+
+.hr {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.my-20 {
+  margin: 20px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
